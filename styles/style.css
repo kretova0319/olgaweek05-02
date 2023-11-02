@@ -1,0 +1,127 @@
+header{
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.magic{
+    height: 80%;
+    font-size: 150px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+.nav{
+    width: 80%;
+    padding-top: 10px;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-around; 
+} 
+ul{
+    list-style-type: none;
+}
+a,
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+.nav_link
+{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s ease-in-out;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-left: 40px;
+}
+a:hover{
+    color: rgb(29, 98, 247);
+    text-decoration: underline;
+}
+.button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    height: 50px;
+    width: 180px;
+    border: 2px solid blanchedalmond;
+    margin-left: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    /* чтобы цвет кнопки менялся плавно */
+}
+button:hover{
+    color: blanchedalmond;
+    background-color: black;
+}
+.main1,
+.main2{
+    background-color: #f8efd1;
+}
+.container3,
+.container4{
+    padding:  30px 30px 30px 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    height: 300px;
+    padding: 30px;
+}
+p:hover{
+    background: #faded1;
+    color: rgb(29, 98, 247);
+    /* фон и  текст окрашиваются в другой цвет */
+}
+img{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+.animate:hover{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    /* картинка смещается в сторону */
+}
+.zoom:hover{
+    transform: scale(1.5);
+    /* увеличиваем изображение в 1,5 раза */
+}
+.cover:hover{
+    border: 5px solid #B0CBC4;
+    background-color: #F2EBD8;
+    border-top-left-radius: 100% 60px;
+    border-bottom-right-radius: 100% 60px;
+    /* заврачиваем края картинки */
+}
+.mirror:hover{
+    width: 350px;
+    height: 280px;
+    box-shadow: 0 15px 15px -10px rgba(0,0,0, .5);
+    /* увеличиваем картинку в ширину, уменьшаем в высоту */
+}
+.zoomin:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    /* увеличиваем изображение медленно */
+}
